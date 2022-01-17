@@ -3261,7 +3261,7 @@ function RadientPaid:Window(text,maincolor)
 	end
 	return ServerHold
 end
-local RadientPaid = RadientPaid:Window("Blox Fruit (UPDATE 16)")
+local RadientPaid = RadientPaid:Window("Blox Fruit (UPDATE 17)")
 local server = RadientPaid:Server("Secret HUB", "", "")
 local main = server:Channel("Main")
 local placeId = game.PlaceId
