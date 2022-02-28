@@ -1,19 +1,3 @@
-repeat wait() until game:IsLoaded()
-
-if _G.Team == "Pirate" then
-	for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-		v.Function()
-	end
-elseif _G.Team == "Marine" then
-	for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Marines.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-		v.Function()
-	end
-else
-	for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-		v.Function()
-	end
-end
-
 local StarHub = {}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
