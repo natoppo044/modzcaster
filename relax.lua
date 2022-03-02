@@ -7,9 +7,9 @@
                                 end
                                 local Flux = loadstring(game:HttpGet"https://pastebin.com/raw/XLCrin0T")()
                                 local win = Flux:Window("Mythic Hub", "Blox Fruit",_G.Color, Enum.KeyCode.RightControl)
-                                local tab = win:Tab("AutoFarm","http://www.roblox.com/asset/?id=4805639000")
-                                local Stats = win:Tab("Stats","http://www.roblox.com/asset/?id=4805639000")
-                                local e = win:Tab("Setting AutoFarm","http://www.roblox.com/asset/?id=4805639000")
+                                local tab = win:Tab("AutoFarm⚔️","http://www.roblox.com/asset/?id=4805639000")
+                                local Stats = win:Tab("Stats❤️","http://www.roblox.com/asset/?id=4805639000")
+                                local e = win:Tab("Setting AutoFarm⚙️","http://www.roblox.com/asset/?id=4805639000")
                                 local placeId = game.PlaceId
                                 if placeId == 2753915549 then
                                     OldWorld = true
@@ -2403,7 +2403,7 @@
                                         end
                                     end
                                 end)
-                                local Players = win:Tab("Players","http://www.roblox.com/asset/?id=4805639000")
+                                local Players = win:Tab("Players👱","http://www.roblox.com/asset/?id=4805639000")
                                 Players:Toggle("Kill Player Over","",false,function(bool)
                                     KillPlayer = bool
                                     if KillPlayer == false then
@@ -2577,7 +2577,7 @@
                                         end
                                     end
                                 end)
-                                local Teleport = win:Tab("Teleport","http://www.roblox.com/asset/?id=4805639000")
+                                local Teleport = win:Tab("Teleport🌌","http://www.roblox.com/asset/?id=4805639000")
                                 Teleport:Toggle("Ctrl + Click = TP"," ",false,function(vu)
                                     CTRL = vu
                                 end)
@@ -2905,7 +2905,7 @@
                                         end
                                     end
                                 end)
-                                local pppp = win:Tab("Misc","http://www.roblox.com/asset/?id=4805639000")
+                                local pppp = win:Tab("Misc👨🏼‍💻","http://www.roblox.com/asset/?id=4805639000")
                                 pppp:Line()
                                 pppp:Button("Open Awakening","", function()
                                     local args = {
@@ -3775,7 +3775,7 @@
                                         end
                                     end
                                 end)
-                                local btns = win:Tab("Dunguen","http://www.roblox.com/asset/?id=4805639000")
+                                local btns = win:Tab("Dunguen🏛","http://www.roblox.com/asset/?id=4805639000")
                                 btns:Line()
                                 btns:Label("AutoRaid")
                                 btns:Toggle("Auto Raid","",false,function(t)
@@ -3958,7 +3958,7 @@
                                         end
                                     end
                                 end)
-                                local BuyItem = win:Tab("BuyItem", "http://www.roblox.com/asset/?id=4805639000")
+                                local BuyItem = win:Tab("BuyItem💵", "http://www.roblox.com/asset/?id=4805639000")
                                 BuyItem:Line()
                                 BuyItem:Label("abilytys", true)
                                 BuyItem:Button("Skyjump","", function()
@@ -4205,7 +4205,7 @@
                                 if Secondsea then
                                 end
                                 -----------------------------------------------------------------------------------------------------------------------------------------------
-                                local k = win:Tab("Setting","http://www.roblox.com/asset/?id=4805639000")
+                                local k = win:Tab("Setting⚙️","http://www.roblox.com/asset/?id=4805639000")
                                 k:Line()
                                 k:Label("--Setting--", true)
                                 k:Toggle("Anit AFK"," ",true,function(vu)
